@@ -1,0 +1,15 @@
+.nav {
+    font-weight: 950;
+    font-stretch: wider;
+}
+
+.bgfooter{
+    margin-top: auto;
+    width: 100%;
+    vertical-align: bottom;
+}
+
+footer {
+    background-color: rgb(17,50,89);
+    text-align: center;
+}

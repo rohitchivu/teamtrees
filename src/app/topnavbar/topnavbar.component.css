@@ -1,0 +1,19 @@
+.text {
+  font-weight: 900;
+  color: rgb(17,50,89);
+}
+
+.bg-gradient {
+  background-color: rgb(134,185,222);
+  text-align: center;
+
+}
+
+footer {
+  background-color: rgb(17,50,89);
+  text-align: center;
+}
+
+.font {
+  color:rgb(17,50,89);
+}
