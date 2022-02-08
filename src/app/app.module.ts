@@ -7,6 +7,7 @@ import { TopNavbar } from 'src/app/topnavbar/topnavbar.component';
 import { AppComponent } from './app.component';
 import { Background } from './background/background.component';
 import { CardComponent } from './card/card.component';
+import { LeaderBoard } from './leaderboard/leaderboard.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CardComponent } from './card/card.component';
     BottomNavbar, 
     SideNavbar, 
     Background, 
-    CardComponent
+    CardComponent, 
+    LeaderBoard
   ],
   imports: [
     BrowserModule

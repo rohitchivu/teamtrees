@@ -8,6 +8,16 @@
 
 <card>Loading...</card>
 
+<div *ngFor="let item of leaderboardItems">
+    <leaderboard
+        [name]="item.name" 
+        [comment]="item.comment" 
+        [trees]="item.trees"
+    >
+        Loading...
+    </leaderboard>
+</div>
+
 <bottomnavbar>Loading...</bottomnavbar>
 
 </body>
