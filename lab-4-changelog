@@ -1,0 +1,21 @@
+Main features:
+Created 6 new layout components:
+Home layout (from navigation)
+Shows entire web application 
+Sidebar layout (from hamburger menu)
+Shows entire sidebar navigation
+FAQ layout (from bottom navigation)
+Opens new component (plain text)
+Contact Us layout (from bottom navigation)
+Opens new component (plain text)
+Press Inquiries layout (from bottom navigation)
+Opens new component (plain text)
+#TeamSeas layout (from bottom navigation)
+Opens new component (plain text)
+Bonus Features:
+Fixed positioning of main components (with Ethan in office hours)
+Fixed logo position
+Overlapped card component over the background image 
+Repositioned leaderboard components (ngFor) under the card component
+Added a new background element (curved blue panel above the footer landscape image) 
+
