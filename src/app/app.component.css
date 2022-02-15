@@ -1,3 +1,7 @@
 body {
-    background-color: rgb(17,50,89);
+    background-color: white;
+}
+
+.blue {
+    background-color: rgb(17, 50, 89);
 }

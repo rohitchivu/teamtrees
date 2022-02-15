@@ -6,6 +6,7 @@ import { TopNavbar } from 'src/app/topnavbar/topnavbar.component';
 
 import { AppComponent } from './app.component';
 import { Background } from './background/background.component';
+import { bluecurve } from './bluecurve/bluecurve.component';
 import { CardComponent } from './card/card.component';
 import { LeaderBoard } from './leaderboard/leaderboard.component';
 
@@ -17,7 +18,8 @@ import { LeaderBoard } from './leaderboard/leaderboard.component';
     SideNavbar, 
     Background, 
     CardComponent, 
-    LeaderBoard
+    LeaderBoard, 
+    bluecurve
   ],
   imports: [
     BrowserModule
