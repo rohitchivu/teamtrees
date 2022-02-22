@@ -1,0 +1,9 @@
+Main features:
+1. updated faq-layout component
+2. corrected sidenavbar: 
+  used offcanvas from bootstrap 
+  made it collapsible 
+  closes by itself 
+Bonus Features:
+used flex to readjust items 
+improved component based structure 
