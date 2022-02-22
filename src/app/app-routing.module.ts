@@ -8,6 +8,7 @@ import { PressLayoutComponent } from './mainpage/press-layout.component';
 import { TeamSeasLayoutComponent } from './mainpage/teamseas-layout.component';
 import { SidebarLayoutComponent } from './mainpage/sidebar-layout.component';
 import { JoinTeamtreesLayoutComponent } from './mainpage/jointeamtrees-layout.component';
+import { StoreLayoutComponent } from './sidebar/store-layout.component';
 
 const routes: Routes = [
   {path: '', component: HomeLayoutComponent}, 
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path: 'press-inquiries', component: PressLayoutComponent},
   {path: 'teamseas', component: TeamSeasLayoutComponent}, 
   {path: 'sidebar', component: SidebarLayoutComponent},
-  {path: 'join-teamtrees', component: JoinTeamtreesLayoutComponent}
+  {path: 'join-teamtrees', component: JoinTeamtreesLayoutComponent}, 
+  {path: 'store-layout', component: StoreLayoutComponent}, 
 ];
 
 @NgModule({

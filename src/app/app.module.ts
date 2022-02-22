@@ -30,7 +30,8 @@ import { TeamSeasLayoutComponent } from './mainpage/teamseas-layout.component';
     FAQLayoutComponent,
     HomeLayoutComponent,
     PressLayoutComponent,
-    TeamSeasLayoutComponent
+    TeamSeasLayoutComponent, 
+    
   ],
   imports: [
     BrowserModule,

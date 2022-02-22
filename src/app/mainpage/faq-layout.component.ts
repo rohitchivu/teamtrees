@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
     selector: 'faq-layout',
@@ -7,5 +7,12 @@ import { Component } from "@angular/core";
 })
 
 export class FAQLayoutComponent {
+    @Input() question: String; 
+    @Input() answer: String;
 
+    constructor() {
+        this.question = "";
+        this.answer = "";
+    
+    }
 }
