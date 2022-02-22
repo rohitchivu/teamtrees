@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import { FAQLayoutComponent } from './bottomnavbar/faq-layout.component';
+import { FAQLayoutComponent } from './mainpage/faq-layout.component';
 import { HomeLayoutComponent } from './mainpage/home-layout.component';
 import { ContactLayoutComponent } from './mainpage/contact-layout.component';
 import { PressLayoutComponent } from './mainpage/press-layout.component';

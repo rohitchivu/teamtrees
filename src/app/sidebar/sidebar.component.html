@@ -1,7 +1,16 @@
-<div class="btndiv align-right"  routerLink='sidebar'>
-  <button type="button" class="btn btn-light" data-bs-toggle="sidenav">
-    <img src = "assets/menu-button-2.png">
-  </button>
-</div>
+<button class="btndiv btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img src = "assets/menu-button-2.png"></button>
 
- 
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div id="mySidenav" class="sidenav offcanvas-body">
+    <a href="#" routerLink='home'>HOME</a>
+    <a href="#" routerLink='join-teamtrees'>JOIN #TEAMTREES</a>
+    <a href="#" routerLink='leaderboard'>LEADERBOARD</a>
+    <a href="#">SOCIAL</a>
+    <a href="#">PLANTING PROJECTS</a>
+    <a href="#">STORE</a>
+  </div>
+</div>

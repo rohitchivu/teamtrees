@@ -10,7 +10,7 @@ import { bluecurve } from './bluecurve/bluecurve.component';
 import { CardComponent } from './card/card.component';
 import { LeaderBoard } from './leaderboard/leaderboard.component';
 import { AppRoutingModule } from './app-routing.module';
-import { FAQLayoutComponent } from './bottomnavbar/faq-layout.component';
+import { FAQLayoutComponent } from './mainpage/faq-layout.component';
 import { HomeLayoutComponent } from './mainpage/home-layout.component';
 import { ContactLayoutComponent } from './mainpage/contact-layout.component';
 import { PressLayoutComponent } from './mainpage/press-layout.component';
