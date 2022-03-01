@@ -15,6 +15,8 @@ import { HomeLayoutComponent } from './mainpage/home-layout.component';
 import { ContactLayoutComponent } from './mainpage/contact-layout.component';
 import { PressLayoutComponent } from './mainpage/press-layout.component';
 import { TeamSeasLayoutComponent } from './mainpage/teamseas-layout.component';
+import { UserInfoComponent } from './user-info/user-info.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -30,12 +32,13 @@ import { TeamSeasLayoutComponent } from './mainpage/teamseas-layout.component';
     FAQLayoutComponent,
     HomeLayoutComponent,
     PressLayoutComponent,
-    TeamSeasLayoutComponent, 
-    
+    TeamSeasLayoutComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
