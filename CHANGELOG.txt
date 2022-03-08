@@ -1,9 +1,11 @@
 Main features:
-1. updated faq-layout component
-2. corrected sidenavbar: 
-  used offcanvas from bootstrap 
-  made it collapsible 
-  closes by itself 
+1. Cretaed a backend via firebase: https://teamtrees-8b578-default-rtdb.firebaseio.com/
+2. Added values to the database: https://teamtrees-8b578-default-rtdb.firebaseio.com/my-info.json
+3. created user-info component 
+4. successfully added to the top of the page
 Bonus Features:
-used flex to readjust items 
-improved component based structure 
+implemented routing for the following components in the sidebar: 
+1. join teamtrees
+2. leaderboard
+3. store
+
