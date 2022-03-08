@@ -9,4 +9,4 @@ export class ProductItemModelFAQ {
         this.answer = answer;
 
     }
-}
+} 

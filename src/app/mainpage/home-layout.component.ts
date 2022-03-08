@@ -1,6 +1,7 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { LeaderboardItem } from "../leaderboard-item";
-import { mock_product_faq } from "./mock_product_item";
+import { FAQService } from "./faq.service";
+import { mock_faq_list } from "./mock_faq_list";
 import { ProductItemModelFAQ } from "./product_item_model";
 
 @Component({
@@ -16,11 +17,12 @@ export class HomeLayoutComponent {
         new LeaderboardItem("Karima El Kahia", "1 laptop 1 tree studentlaptops.be", 4), 
         new LeaderboardItem("Emily Van Hove", "1 laptop 1 tree studentlaptops.be", 1)
       ];
+      
     FAQItems:  ProductItemModelFAQ [] = [];
     items: any;
 
     constructor () {
-        for (var item of mock_product_faq) {
+        for (var item of mock_faq_list) {
             console.log (item);
             this.items.push(item);
         }
