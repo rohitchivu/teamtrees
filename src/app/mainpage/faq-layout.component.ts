@@ -9,22 +9,18 @@ import { ProductItemModelFAQ } from "./product_item_model";
     styleUrls: ['faq-layout.component.css']
 })
 
-export class FAQLayoutComponent implements OnInit{
+export class FAQLayoutComponent{
     faqs: ProductItemModelFAQ[] = [];
     items: any;
 
     constructor(private faqService:FAQService) {
-        
-    }
 
-    ngOnInit(): void {
-        this.faqService.getFAQ().subscribe(data => {
-            console.log("Fetching data"); 
-            for (var faq of data){
-                console.log(faq);
-            }
-        })
-    }
-
-    
-}
+    // ngOnInit(): void {
+    //     this.faqService.getFAQ().subscribe(data => {
+    //         console.log("Fetching data"); 
+    //         for (var faq of data){
+    //             console.log(faq);
+    //         }
+    //     })
+    // }}
+}}
