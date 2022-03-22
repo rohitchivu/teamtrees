@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "teamtrees-8b578"
+  },
+  "targets": {
+    "teamtrees-8b578": {
+      "hosting": {
+        "teamtrees": [
+          "teamtrees-8b578"
+        ]
+      }
+    }
+  }
+}
