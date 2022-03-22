@@ -1,0 +1,8 @@
+main features: 
+1. added data to firebase (back end) for the faq mock list 
+  i. linked .json url to .ts file
+2. linked back end with faq layout component 
+3. display mock list on faq layout page via routing 
+bonus: 
+1. reworked all routerlinks 
+2. added router links to all menu options in the sidebar 
