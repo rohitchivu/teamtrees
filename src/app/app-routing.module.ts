@@ -19,7 +19,7 @@ const routes: Routes = [
   {path: 'teamseas', component: TeamSeasLayoutComponent}, 
   {path: 'sidebar', component: SidebarLayoutComponent},
   {path: 'join-teamtrees', component: JoinTeamtreesLayoutComponent}, 
-  {path: 'store-layout', component: StoreLayoutComponent}, 
+  {path: 'store-layout', component: StoreLayoutComponent}
 ];
 
 @NgModule({
