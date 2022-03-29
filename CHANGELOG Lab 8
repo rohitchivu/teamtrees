@@ -1,0 +1,6 @@
+1. Switched from HTTP client to Angular Fire Database
+2. Switched dependancies to firebase 
+3. reimplemented user-info component for linking the database to code
+4. deployed link https://teamtrees-8b578.web.app/
+Bonus: 
+improved angular routing errors that were commented earlier 
