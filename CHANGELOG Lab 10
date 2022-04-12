@@ -1,0 +1,8 @@
+1. Linked firebase authentication to website 
+2. added email/password functionality
+3. created authentication component using forms and bootstrap
+4. created authentication service 
+BONUS: 
+1. fixed lab 9 ngForm 
+2. did git checkout to lab 8 and reworked everything from there; lab 9 was not functional 
+3. fixed angular routing (was not working earlier on firebase)
